@@ -3,7 +3,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 
 dotenv.config();
-const port = 3000;
+const port = 5000;
 const app = express();
 
 app.use(bodyParser.json());
