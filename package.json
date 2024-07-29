@@ -5,7 +5,7 @@
   "type": "commonjs",
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/index.js",
+    "start": "node sse.js",
     "dev": "tsx watch app.ts"
   },
   "peerDependencies": {
