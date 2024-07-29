@@ -2,9 +2,8 @@
     "version": 2,
     "builds": [
      {
-      "src": "sse.js",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["dist/**"] }
+      "src": "sse.ts",
+      "use": "@now/node"
      }
     ],
     "routes": [
@@ -14,4 +13,3 @@
      }
     ]
    }
-   
